@@ -4,6 +4,7 @@ import 'package:flutter_profile/components/profile_count_info.dart';
 import 'package:flutter_profile/components/profile_drawer.dart';
 import 'package:flutter_profile/components/profile_header.dart';
 import 'package:flutter_profile/components/profile_tab.dart';
+import 'package:flutter_profile/hello_page.dart';
 import 'package:flutter_profile/theme.dart';
 
 void main() {
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: theme(),
       home: ProfilePage(),
     );
